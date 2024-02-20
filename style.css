@@ -1,0 +1,270 @@
+body {
+  color: #4d4c4c;
+}
+.light-grey {
+  color: #ffffff;
+}
+
+.bg-dark-blue {
+  background-color: #0d284d;
+}
+
+.ocean-blue {
+  color: #007493;
+}
+
+.bg-light-grey{
+background-color: #F8F8F8;
+}
+
+.bg-header-img {
+  position: relative;
+}
+
+.bg-header-img:before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background: url("https://assets.channext.eu/cisco/2024/smb-remote/img/bitmap1.png")
+    repeat 0 0;
+  background-position: center top;
+  background-size: cover;
+}
+
+blockquote {
+  color: #0d274d;
+}
+
+h1,
+h3,
+h4 {
+  font-weight: 500 !important;
+}
+
+h2 {
+  font-weight: 700 !important;
+}
+
+.bi-check-circle-fill {
+color: #02bd00;
+
+}
+
+.bitmap-tab {
+    overflow: hidden;
+    }
+    
+.bitmap {
+    max-height: 500px;
+    min-width: 100%;
+}
+
+
+.d-none {
+  display: none !important;
+}
+
+h1 {
+  font-size: 46px;
+  line-height: 54px;
+}
+
+
+p {
+  font-size: 18px!important;
+}
+
+.nav-tabs.first .nav-link.active {
+  border-left: 5px solid #007493!important ;
+  border-radius: 0!important;
+  color: #007493!important;
+}
+
+.nav-tabs.first .nav-link {
+  border: none!important ;
+  border-left: 2px solid #F0F0F0!important;
+  color: #007493!important ;
+  padding: 0 0 0 1.2rem;
+  margin: 0;
+  transition: all 0.3s;
+  border-radius: 0!important;
+}
+
+.nav-cisco {
+display: block;
+}
+
+.nav-tabs {
+  border-bottom: none !important;
+}
+
+
+/* form */
+#submitButton {
+  background-color: #01bceb !important;
+  color: white !important;
+  padding: 8px 25px !important;
+  border-radius: 50px;
+  margin-top: 3%;
+  border: 2px solid #01bceb !important;
+  text-decoration: none !important;
+}
+
+#submitButton:hover {
+  background-color: transparent !important;
+  color: #01bceb !important;
+  padding: 8px 25px !important;
+  border: 2px solid #01bceb !important;
+  text-decoration: none !important;
+}
+
+.form-bg {
+  background-color: #0d274d !important;
+  overflow: hidden;
+  color: #ffffff;
+}
+
+form label {
+  font-size: 14px;
+}
+
+#field-country,
+#field-country:hover {
+  padding: 10px 7px;
+  border: 1px solid #ccd2d6;
+  outline: none !important;
+  font-weight: 300 !important;
+  border-radius: 3px;
+  height: 50px;
+  color: #7f8d98 !important;
+}
+
+input.form-control,
+.form-group #field-country {
+  height: 50px;
+  width: 100%;
+}
+
+form label {
+  display: none;
+}
+
+.checkbox label {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 0px;
+}
+
+#field-country,
+#field-country:hover {
+  padding: 10px 7px;
+  border: 1px solid #ccd2d6;
+  outline: none !important;
+  font-weight: 300 !important;
+  border-radius: 3px;
+  height: 50px;
+  color: #7f8d98 !important;
+}
+
+form input:not([type="checkbox"]) {
+  padding: 10px 15px;
+  border: 1px solid #ccd2d6;
+  outline: none !important;
+  font-weight: 300 !important;
+  width: 90%;
+  margin-top: 2%;
+  border-radius: 50px;
+}
+
+.reseller_opt_in.checkbox,
+.vendor_opt_in.checkbox {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+margin-top: 1%;
+  color: #e2e2e2;
+}
+
+input[type="checkbox"] {
+  margin-right: 5px;
+}
+
+      form {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.text,
+.email, .phone{
+  width: 50%;
+}
+
+.fieldlast_name, .fieldcompany_name, .fieldphone {
+margin-left: auto;
+}
+
+@media only screen and (max-width: 768px) {
+  .reseller_opt_in.checkbox,
+  .vendor_opt_in.checkbox {
+    width: 90%;
+    margin-top: 0%;
+  }
+
+  form > div {
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    margin-top: 0%;
+  }
+  form input:not([type="checkbox"]) {
+    width: 100%;
+    margin-right: 0%;
+    height: 45px;
+    margin-left: 0%;
+    margin-bottom: 2%;
+    margin-top: 3%;
+  }
+  #submitButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+  
+h1 {
+  font-size: 30px;
+  line-height: 35px;
+}
+}
+
+@media screen and (max-width: 991px) {
+  .bg-header-img:before {
+    display: none;
+  }
+
+  .d-none {
+    display: block !important;
+  }
+  
+      form {
+  display: block;
+}
+
+.text,
+.email, .phone{
+  width: 100%;
+}
+
+h1 {
+  font-size: 35px;
+  line-height: 38px;
+}
+
+}
